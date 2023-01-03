@@ -1,0 +1,1585 @@
+{
+    "areas": [
+        {
+            "limita_con": [
+                "Russia",
+                "Georgia"
+            ],
+            "nombre": "Abkhazia"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "Iran",
+                "Pakistan",
+                "Tajikistan",
+                "Turkmenistan",
+                "Uzbekistan"
+            ],
+            "nombre": "Afghanistan"
+        },
+        {
+            "limita_con": [
+                "Greece",
+                "Kosovo",
+                "North Macedonia",
+                "Montenegro"
+            ],
+            "nombre": "Albania"
+        },
+        {
+            "limita_con": [
+                "Libya",
+                "Mali",
+                "Mauritania",
+                "Morocco",
+                "Niger",
+                "Tunisia",
+                "Western Sahara"
+            ],
+            "nombre": "Algeria"
+        },
+        {
+            "limita_con": [
+                "France",
+                "Spain"
+            ],
+            "nombre": "Andorra"
+        },
+        {
+            "limita_con": [
+                "Democratic Republic of the Congo",
+                "Republic of the Congo",
+                "Namibia",
+                "Zambia"
+            ],
+            "nombre": "Angola"
+        },
+        {
+            "nombre": "Antigua and Barbuda"
+        },
+        {
+            "limita_con": [
+                "Bolivia",
+                "Brazil",
+                "Chile",
+                "Paraguay",
+                "Uruguay"
+            ],
+            "nombre": "Argentina"
+        },
+        {
+            "limita_con": [
+                "Azerbaijan",
+                "Georgia",
+                "Iran",
+                "Turkey"
+            ],
+            "nombre": "Armenia"
+        },
+        {
+            "nombre": "Australia"
+        },
+        {
+            "limita_con": [
+                "Czech Republic",
+                "Germany",
+                "Hungary",
+                "Italy",
+                "Liechtenstein",
+                "Slovakia",
+                "Slovenia",
+                "Switzerland"
+            ],
+            "nombre": "Austria"
+        },
+        {
+            "limita_con": [
+                "Armenia",
+                "Georgia",
+                "Iran",
+                "Russia"
+            ],
+            "nombre": "Azerbaijan"
+        },
+        {
+            "nombre": "Bahamas"
+        },
+        {
+            "nombre": "Bahrain"
+        },
+        {
+            "limita_con": [
+                "India",
+                "Myanmar"
+            ],
+            "nombre": "Bangladesh"
+        },
+        {
+            "nombre": "Barbados"
+        },
+        {
+            "limita_con": [
+                "Latvia",
+                "Lithuania",
+                "Poland",
+                "Russia",
+                "Ukraine"
+            ],
+            "nombre": "Belarus"
+        },
+        {
+            "limita_con": [
+                "France",
+                "Germany",
+                "Luxembourg",
+                "Netherlands"
+            ],
+            "nombre": "Belgium"
+        },
+        {
+            "limita_con": [
+                "Guatemala",
+                "Mexico"
+            ],
+            "nombre": "Belize"
+        },
+        {
+            "limita_con": [
+                "Burkina Faso",
+                "Niger",
+                "Nigeria",
+                "Togo"
+            ],
+            "nombre": "Benin"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "India"
+            ],
+            "nombre": "Bhutan"
+        },
+        {
+            "limita_con": [
+                "Argentina",
+                "Brazil",
+                "Chile",
+                "Paraguay",
+                "Peru"
+            ],
+            "nombre": "Bolivia"
+        },
+        {
+            "limita_con": [
+                "Croatia",
+                "Montenegro",
+                "Serbia"
+            ],
+            "nombre": "Bosnia and Herzegovina"
+        },
+        {
+            "limita_con": [
+                "Namibia",
+                "South Africa",
+                "Zambia",
+                "Zimbabwe"
+            ],
+            "nombre": "Botswana"
+        },
+        {
+            "limita_con": [
+                "Argentina",
+                "Bolivia",
+                "Colombia",
+                "Guyana",
+                "Paraguay",
+                "Peru",
+                "Suriname",
+                "Uruguay",
+                "Venezuela"
+            ],
+            "nombre": "Brazil"
+        },
+        {
+            "limita_con": [
+                "Malaysia"
+            ],
+            "nombre": "Brunei"
+        },
+        {
+            "limita_con": [
+                "Greece",
+                "North Macedonia",
+                "Romania",
+                "Serbia",
+                "Turkey"
+            ],
+            "nombre": "Bulgaria"
+        },
+        {
+            "limita_con": [
+                "Benin",
+                "Côte d'Ivoire",
+                "Ghana",
+                "Mali",
+                "Niger",
+                "Togo"
+            ],
+            "nombre": "Burkina Faso"
+        },
+        {
+            "limita_con": [
+                "Democratic Republic of the Congo",
+                "Rwanda",
+                "Tanzania"
+            ],
+            "nombre": "Burundi"
+        },
+        {
+            "limita_con": [
+                "Laos",
+                "Thailand",
+                "Vietnam"
+            ],
+            "nombre": "Cambodia"
+        },
+        {
+            "limita_con": [
+                "Central African Republic",
+                "Chad",
+                "Republic of the Congo",
+                "Equatorial Guinea",
+                "Gabon",
+                "Nigeria"
+            ],
+            "nombre": "Cameroon"
+        },
+        {
+            "limita_con": [
+                "United States"
+            ],
+            "nombre": "Canada"
+        },
+        {
+            "nombre": "Cape Verde"
+        },
+        {
+            "limita_con": [
+                "Cameroon",
+                "Chad",
+                "Democratic Republic of the Congo",
+                "Republic of the Congo",
+                "South Sudan",
+                "Sudan"
+            ],
+            "nombre": "Central African Republic"
+        },
+        {
+            "limita_con": [
+                "Cameroon",
+                "Central African Republic",
+                "Libya",
+                "Niger",
+                "Nigeria",
+                "Sudan"
+            ],
+            "nombre": "Chad"
+        },
+        {
+            "limita_con": [
+                "Argentina",
+                "Bolivia",
+                "Peru"
+            ],
+            "nombre": "Chile"
+        },
+        {
+            "limita_con": [
+                "Afghanistan",
+                "Bhutan",
+                "Hong Kong",
+                "India",
+                "Kazakhstan",
+                "North Korea",
+                "Kyrgyzstan",
+                "Laos",
+                "Macau",
+                "Mongolia",
+                "Myanmar",
+                "Nepal",
+                "Pakistan",
+                "Russia",
+                "Tajikistan",
+                "Vietnam"
+            ],
+            "nombre": "People's Republic of China"
+        },
+        {
+            "limita_con": [
+                "Brazil",
+                "Ecuador",
+                "Panama",
+                "Peru",
+                "Venezuela"
+            ],
+            "nombre": "Colombia"
+        },
+        {
+            "nombre": "Comoros"
+        },
+        {
+            "limita_con": [
+                "Angola",
+                "Burundi",
+                "Central African Republic",
+                "Republic of the Congo",
+                "Rwanda",
+                "South Sudan",
+                "Tanzania",
+                "Uganda",
+                "Zambia"
+            ],
+            "nombre": "Democratic Republic of the Congo"
+        },
+        {
+            "limita_con": [
+                "Angola",
+                "Cameroon",
+                "Central African Republic",
+                "Democratic Republic of the Congo",
+                "Gabon"
+            ],
+            "nombre": "Republic of the Congo"
+        },
+        {
+            "limita_con": [
+                "Nicaragua",
+                "Panama"
+            ],
+            "nombre": "Costa Rica"
+        },
+        {
+            "limita_con": [
+                "Burkina Faso",
+                "Ghana",
+                "Guinea",
+                "Liberia",
+                "Mali"
+            ],
+            "nombre": "Côte d'Ivoire"
+        },
+        {
+            "limita_con": [
+                "Bosnia and Herzegovina",
+                "Hungary",
+                "Montenegro",
+                "Serbia",
+                "Slovenia"
+            ],
+            "nombre": "Croatia"
+        },
+        {
+            "nombre": "Cuba"
+        },
+        {
+            "limita_con": [
+            ],
+            "nombre": "Cyprus"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "Germany",
+                "Poland",
+                "Slovakia"
+            ],
+            "nombre": "Czech Republic"
+        },
+        {
+            "limita_con": [
+                "Germany"
+            ],
+            "nombre": "Denmark"
+        },
+        {
+            "limita_con": [
+                "Eritrea",
+                "Ethiopia",
+                "Somalia"
+            ],
+            "nombre": "Djibouti"
+        },
+        {
+            "nombre": "Dominica"
+        },
+        {
+            "limita_con": [
+                "Haiti"
+            ],
+            "nombre": "Dominican Republic"
+        },
+        {
+            "limita_con": [
+                "Indonesia"
+            ],
+            "nombre": "East Timor"
+        },
+        {
+            "limita_con": [
+                "Colombia",
+                "Peru"
+            ],
+            "nombre": "Ecuador"
+        },
+        {
+            "limita_con": [
+                "Palestine",
+                "Israel",
+                "Libya",
+                "Sudan"
+            ],
+            "nombre": "Egypt"
+        },
+        {
+            "limita_con": [
+                "Guatemala",
+                "Honduras"
+            ],
+            "nombre": "El Salvador"
+        },
+        {
+            "limita_con": [
+                "Cameroon",
+                "Gabon"
+            ],
+            "nombre": "Equatorial Guinea"
+        },
+        {
+            "limita_con": [
+                "Djibouti",
+                "Ethiopia",
+                "Sudan"
+            ],
+            "nombre": "Eritrea"
+        },
+        {
+            "limita_con": [
+                "Latvia",
+                "Russia"
+            ],
+            "nombre": "Estonia"
+        },
+        {
+            "limita_con": [
+                "Mozambique",
+                "South Africa"
+            ],
+            "nombre": "Eswatini"
+        },
+        {
+            "limita_con": [
+                "Djibouti",
+                "Eritrea",
+                "Kenya",
+                "Somalia",
+                "South Sudan",
+                "Sudan"
+            ],
+            "nombre": "Ethiopia"
+        },
+        {
+            "nombre": "Fiji"
+        },
+        {
+            "limita_con": [
+                "Norway",
+                "Sweden",
+                "Russia"
+            ],
+            "nombre": "Finland"
+        },
+        {
+            "limita_con": [
+                "Andorra",
+                "Belgium",
+                "Germany",
+                "Italy",
+                "Luxembourg",
+                "Monaco",
+                "Netherlands",
+                "Spain",
+                "Switzerland"
+            ],
+            "nombre": "France"
+        },
+        {
+            "limita_con": [
+                "Cameroon",
+                "Republic of the Congo",
+                "Equatorial Guinea"
+            ],
+            "nombre": "Gabon"
+        },
+        {
+            "limita_con": [
+                "Senegal"
+            ],
+            "nombre": "The Gambia"
+        },
+        {
+            "limita_con": [
+                "Armenia",
+                "Azerbaijan",
+                "Russia",
+                "Turkey",
+                "Abkhazia",
+                "South Ossetia"
+            ],
+            "nombre": "Georgia"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "Belgium",
+                "Czech Republic",
+                "Denmark",
+                "France",
+                "Luxembourg",
+                "Netherlands",
+                "Poland",
+                "Switzerland"
+            ],
+            "nombre": "Germany"
+        },
+        {
+            "limita_con": [
+                "Burkina Faso",
+                "Côte d'Ivoire",
+                "Togo"
+            ],
+            "nombre": "Ghana"
+        },
+        {
+            "limita_con": [
+                "Albania",
+                "Bulgaria",
+                "Turkey",
+                "North Macedonia"
+            ],
+            "nombre": "Greece"
+        },
+        {
+            "nombre": "Grenada"
+        },
+        {
+            "limita_con": [
+                "Belize",
+                "El Salvador",
+                "Honduras",
+                "Mexico"
+            ],
+            "nombre": "Guatemala"
+        },
+        {
+            "limita_con": [
+                "Côte d'Ivoire",
+                "Guinea-Bissau",
+                "Liberia",
+                "Mali",
+                "Senegal",
+                "Sierra Leone"
+            ],
+            "nombre": "Guinea"
+        },
+        {
+            "limita_con": [
+                "Guinea",
+                "Senegal"
+            ],
+            "nombre": "Guinea-Bissau"
+        },
+        {
+            "limita_con": [
+                "Brazil",
+                "Suriname",
+                "Venezuela"
+            ],
+            "nombre": "Guyana"
+        },
+        {
+            "limita_con": [
+                "Dominican Republic"
+            ],
+            "nombre": "Haiti"
+        },
+        {
+            "limita_con": [
+                "Guatemala",
+                "El Salvador",
+                "Nicaragua"
+            ],
+            "nombre": "Honduras"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China"
+            ],
+            "nombre": "Hong Kong"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "Croatia",
+                "Romania",
+                "Serbia",
+                "Slovakia",
+                "Slovenia",
+                "Ukraine"
+            ],
+            "nombre": "Hungary"
+        },
+        {
+            "nombre": "Iceland"
+        },
+        {
+            "limita_con": [
+                "Bangladesh",
+                "Bhutan",
+                "People's Republic of China",
+                "Myanmar",
+                "Nepal",
+                "Pakistan",
+                "Sri Lanka"
+            ],
+            "nombre": "India"
+        },
+        {
+            "limita_con": [
+                "East Timor",
+                "Malaysia",
+                "Papua New Guinea"
+            ],
+            "nombre": "Indonesia"
+        },
+        {
+            "limita_con": [
+                "Afghanistan",
+                "Armenia",
+                "Azerbaijan",
+                "Iraq",
+                "Pakistan",
+                "Turkey",
+                "Turkmenistan"
+            ],
+            "nombre": "Iran"
+        },
+        {
+            "limita_con": [
+                "Iran",
+                "Jordan",
+                "Kuwait",
+                "Saudi Arabia",
+                "Syria",
+                "Turkey"
+            ],
+            "nombre": "Iraq"
+        },
+        {
+            "limita_con": [
+                "United Kingdom"
+            ],
+            "nombre": "Ireland"
+        },
+        {
+            "limita_con": [
+                "Egypt",
+                "Palestine",
+                "Jordan",
+                "Lebanon",
+                "Syria"
+            ],
+            "nombre": "Israel"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "France",
+                "San Marino",
+                "Slovenia",
+                "Switzerland",
+                "Vatican City"
+            ],
+            "nombre": "Italy"
+        },
+        {
+            "nombre": "Jamaica"
+        },
+        {
+            "nombre": "Japan"
+        },
+        {
+            "limita_con": [
+                "Iraq",
+                "Israel",
+                "Saudi Arabia",
+                "Syria",
+                "Palestine"
+            ],
+            "nombre": "Jordan"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "Kyrgyzstan",
+                "Russia",
+                "Turkmenistan",
+                "Uzbekistan"
+            ],
+            "nombre": "Kazakhstan"
+        },
+        {
+            "limita_con": [
+                "Ethiopia",
+                "Somalia",
+                "South Sudan",
+                "Tanzania",
+                "Uganda"
+            ],
+            "nombre": "Kenya"
+        },
+        {
+            "nombre": "Kiribati"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "South Korea",
+                "Russia"
+            ],
+            "nombre": "North Korea"
+        },
+        {
+            "limita_con": [
+                "North Korea"
+            ],
+            "nombre": "South Korea"
+        },
+        {
+            "limita_con": [
+                "Albania",
+                "Montenegro",
+                "North Macedonia",
+                "Serbia"
+            ],
+            "nombre": "Kosovo"
+        },
+        {
+            "limita_con": [
+                "Iraq",
+                "Saudi Arabia"
+            ],
+            "nombre": "Kuwait"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "Kazakhstan",
+                "Tajikistan",
+                "Uzbekistan"
+            ],
+            "nombre": "Kyrgyzstan"
+        },
+        {
+            "limita_con": [
+                "Cambodia",
+                "People's Republic of China",
+                "Myanmar",
+                "Thailand",
+                "Vietnam"
+            ],
+            "nombre": "Laos"
+        },
+        {
+            "limita_con": [
+                "Belarus",
+                "Estonia",
+                "Lithuania",
+                "Russia"
+            ],
+            "nombre": "Latvia"
+        },
+        {
+            "limita_con": [
+                "Israel",
+                "Syria"
+            ],
+            "nombre": "Lebanon"
+        },
+        {
+            "limita_con": [
+                "South Africa"
+            ],
+            "nombre": "Lesotho"
+        },
+        {
+            "limita_con": [
+                "Guinea",
+                "Côte d'Ivoire",
+                "Sierra Leone"
+            ],
+            "nombre": "Liberia"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Chad",
+                "Egypt",
+                "Niger",
+                "Sudan",
+                "Tunisia"
+            ],
+            "nombre": "Libya"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "Switzerland"
+            ],
+            "nombre": "Liechtenstein"
+        },
+        {
+            "limita_con": [
+                "Belarus",
+                "Latvia",
+                "Poland"
+            ],
+            "nombre": "Lithuania"
+        },
+        {
+            "limita_con": [
+                "Belgium",
+                "France",
+                "Germany"
+            ],
+            "nombre": "Luxembourg"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China"
+            ],
+            "nombre": "Macau"
+        },
+        {
+            "nombre": "Madagascar"
+        },
+        {
+            "nombre": "Madeira"
+        },
+        {
+            "limita_con": [
+                "Mozambique",
+                "Tanzania",
+                "Zambia"
+            ],
+            "nombre": "Malawi"
+        },
+        {
+            "limita_con": [
+                "Brunei",
+                "Indonesia",
+                "Thailand"
+            ],
+            "nombre": "Malaysia"
+        },
+        {
+            "nombre": "Maldives"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Burkina Faso",
+                "Côte d'Ivoire",
+                "Guinea",
+                "Mauritania",
+                "Niger",
+                "Senegal"
+            ],
+            "nombre": "Mali"
+        },
+        {
+            "nombre": "Malta"
+        },
+        {
+            "nombre": "Marshall Islands"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Mali",
+                "Senegal",
+                "Western Sahara"
+            ],
+            "nombre": "Mauritania"
+        },
+        {
+            "nombre": "Mauritius"
+        },
+        {
+            "limita_con": [
+                "Belize",
+                "Guatemala",
+                "United States"
+            ],
+            "nombre": "Mexico"
+        },
+        {
+            "nombre": "Federated States of Micronesia"
+        },
+        {
+            "limita_con": [
+                "Romania",
+                "Ukraine"
+            ],
+            "nombre": "Moldova"
+        },
+        {
+            "limita_con": [
+                "France"
+            ],
+            "nombre": "Monaco"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "Russia"
+            ],
+            "nombre": "Mongolia"
+        },
+        {
+            "limita_con": [
+                "Albania",
+                "Bosnia and Herzegovina",
+                "Croatia",
+                "Kosovo",
+                "Serbia"
+            ],
+            "nombre": "Montenegro"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Western Sahara"
+            ],
+            "nombre": "Morocco"
+        },
+        {
+            "limita_con": [
+                "Eswatini",
+                "Malawi",
+                "South Africa",
+                "Tanzania",
+                "Zambia",
+                "Zimbabwe"
+            ],
+            "nombre": "Mozambique"
+        },
+        {
+            "limita_con": [
+                "Bangladesh",
+                "People's Republic of China",
+                "India",
+                "Laos",
+                "Thailand"
+            ],
+            "nombre": "Myanmar"
+        },
+        {
+            "limita_con": [
+                "Angola",
+                "Botswana",
+                "South Africa",
+                "Zambia"
+            ],
+            "nombre": "Namibia"
+        },
+        {
+            "nombre": "Nauru"
+        },
+        {
+            "limita_con": [
+                "People's Republic of China",
+                "India"
+            ],
+            "nombre": "Nepal"
+        },
+        {
+            "limita_con": [
+                "Belgium",
+                "France",
+                "Germany"
+            ],
+            "nombre": "Netherlands"
+        },
+        {
+            "nombre": "New Zealand"
+        },
+        {
+            "limita_con": [
+                "Costa Rica",
+                "Honduras"
+            ],
+            "nombre": "Nicaragua"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Benin",
+                "Burkina Faso",
+                "Chad",
+                "Libya",
+                "Mali",
+                "Nigeria"
+            ],
+            "nombre": "Niger"
+        },
+        {
+            "limita_con": [
+                "Benin",
+                "Cameroon",
+                "Chad",
+                "Niger"
+            ],
+            "nombre": "Nigeria"
+        },
+        {
+            "limita_con": [
+                "Albania",
+                "Bulgaria",
+                "Greece",
+                "Kosovo",
+                "Serbia"
+            ],
+            "nombre": "North Macedonia"
+        },
+        {
+            "limita_con": [
+                "Finland",
+                "Sweden",
+                "Russia"
+            ],
+            "nombre": "Norway"
+        },
+        {
+            "limita_con": [
+                "Saudi Arabia",
+                "United Arab Emirates",
+                "Yemen"
+            ],
+            "nombre": "Oman"
+        },
+        {
+            "limita_con": [
+                "Afghanistan",
+                "India",
+                "Iran",
+                "People's Republic of China"
+            ],
+            "nombre": "Pakistan"
+        },
+        {
+            "nombre": "Palau"
+        },
+        {
+            "limita_con": [
+                "Egypt",
+                "Israel",
+                "Jordan"
+            ],
+            "nombre": "Palestine"
+        },
+        {
+            "limita_con": [
+                "Colombia",
+                "Costa Rica"
+            ],
+            "nombre": "Panama"
+        },
+        {
+            "limita_con": [
+                "Indonesia"
+            ],
+            "nombre": "Papua New Guinea"
+        },
+        {
+            "limita_con": [
+                "Argentina",
+                "Bolivia",
+                "Brazil"
+            ],
+            "nombre": "Paraguay"
+        },
+        {
+            "limita_con": [
+                "Bolivia",
+                "Brazil",
+                "Chile",
+                "Colombia",
+                "Ecuador"
+            ],
+            "nombre": "Peru"
+        },
+        {
+            "nombre": "Philippines"
+        },
+        {
+            "limita_con": [
+                "Belarus",
+                "Czech Republic",
+                "Germany",
+                "Lithuania",
+                "Slovakia",
+                "Ukraine"
+            ],
+            "nombre": "Poland"
+        },
+        {
+            "limita_con": [
+                "Spain"
+            ],
+            "nombre": "Portugal"
+        },
+        {
+            "limita_con": [
+                "Saudi Arabia"
+            ],
+            "nombre": "Qatar"
+        },
+        {
+            "limita_con": [
+                "Bulgaria",
+                "Hungary",
+                "Moldova",
+                "Serbia",
+                "Ukraine"
+            ],
+            "nombre": "Romania"
+        },
+        {
+            "limita_con": [
+                "Abkhazia",
+                "Azerbaijan",
+                "Belarus",
+                "People's Republic of China",
+                "Estonia",
+                "Finland",
+                "Georgia",
+                "Kazakhstan",
+                "North Korea",
+                "Latvia",
+                "Mongolia",
+                "Norway",
+                "South Ossetia",
+                "Ukraine"
+            ],
+            "nombre": "Russia"
+        },
+        {
+            "limita_con": [
+                "Burundi",
+                "Democratic Republic of the Congo",
+                "Tanzania",
+                "Uganda"
+            ],
+            "nombre": "Rwanda"
+        },
+        {
+            "nombre": "Saint Kitts and Nevis"
+        },
+        {
+            "nombre": "Saint Lucia"
+        },
+        {
+            "nombre": "Saint Vincent and the Grenadines"
+        },
+        {
+            "nombre": "Samoa"
+        },
+        {
+            "limita_con": [
+                "Italy"
+            ],
+            "nombre": "San Marino"
+        },
+        {
+            "nombre": "São Tomé and Príncipe"
+        },
+        {
+            "limita_con": [
+                "Iraq",
+                "Jordan",
+                "Kuwait",
+                "Oman",
+                "Qatar",
+                "United Arab Emirates",
+                "Yemen"
+            ],
+            "nombre": "Saudi Arabia"
+        },
+        {
+            "limita_con": [
+                "The Gambia",
+                "Guinea",
+                "Guinea-Bissau",
+                "Mali",
+                "Mauritania"
+            ],
+            "nombre": "Senegal"
+        },
+        {
+            "limita_con": [
+                "Bosnia and Herzegovina",
+                "Bulgaria",
+                "Croatia",
+                "Hungary",
+                "Kosovo",
+                "Montenegro",
+                "North Macedonia",
+                "Romania"
+            ],
+            "nombre": "Serbia"
+        },
+        {
+            "nombre": "Seychelles"
+        },
+        {
+            "limita_con": [
+                "Guinea",
+                "Liberia"
+            ],
+            "nombre": "Sierra Leone"
+        },
+        {
+            "nombre": "Singapore"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "Czech Republic",
+                "Hungary",
+                "Poland",
+                "Ukraine"
+            ],
+            "nombre": "Slovakia"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "Croatia",
+                "Italy",
+                "Hungary"
+            ],
+            "nombre": "Slovenia"
+        },
+        {
+            "nombre": "Solomon Islands"
+        },
+        {
+            "limita_con": [
+                "Djibouti",
+                "Ethiopia",
+                "Kenya"
+            ],
+            "nombre": "Somalia"
+        },
+        {
+            "limita_con": [
+                "Botswana",
+                "Eswatini",
+                "Lesotho",
+                "Mozambique",
+                "Namibia",
+                "Zimbabwe"
+            ],
+            "nombre": "South Africa"
+        },
+        {
+            "limita_con": [
+                "Russia",
+                "Georgia"
+            ],
+            "nombre": "South Ossetia"
+        },
+        {
+            "limita_con": [
+                "Central African Republic",
+                "Democratic Republic of the Congo",
+                "Ethiopia",
+                "Kenya",
+                "Sudan",
+                "Uganda"
+            ],
+            "nombre": "South Sudan"
+        },
+        {
+            "limita_con": [
+                "Andorra",
+                "France",
+                "Portugal"
+            ],
+            "nombre": "Spain"
+        },
+        {
+            "limita_con": [
+                "India"
+            ],
+            "nombre": "Sri Lanka"
+        },
+        {
+            "limita_con": [
+                "Central African Republic",
+                "Chad",
+                "Egypt",
+                "Eritrea",
+                "Ethiopia",
+                "Libya",
+                "South Sudan"
+            ],
+            "nombre": "Sudan"
+        },
+        {
+            "limita_con": [
+                "Brazil",
+                "Guyana"
+            ],
+            "nombre": "Suriname"
+        },
+        {
+            "limita_con": [
+                "Finland",
+                "Norway"
+            ],
+            "nombre": "Sweden"
+        },
+        {
+            "limita_con": [
+                "Austria",
+                "France",
+                "Italy",
+                "Liechtenstein",
+                "Germany"
+            ],
+            "nombre": "Switzerland"
+        },
+        {
+            "limita_con": [
+                "Iraq",
+                "Israel",
+                "Jordan",
+                "Lebanon",
+                "Turkey"
+            ],
+            "nombre": "Syria"
+        },
+        {
+            "nombre": "Taiwan"
+        },
+        {
+            "limita_con": [
+                "Afghanistan",
+                "People's Republic of China",
+                "Kyrgyzstan",
+                "Uzbekistan"
+            ],
+            "nombre": "Tajikistan"
+        },
+        {
+            "limita_con": [
+                "Burundi",
+                "Democratic Republic of the Congo",
+                "Kenya",
+                "Malawi",
+                "Mozambique",
+                "Rwanda",
+                "Uganda",
+                "Zambia"
+            ],
+            "nombre": "Tanzania"
+        },
+        {
+            "limita_con": [
+                "Cambodia",
+                "Laos",
+                "Malaysia",
+                "Myanmar"
+            ],
+            "nombre": "Thailand"
+        },
+        {
+            "limita_con": [
+                "Benin",
+                "Burkina Faso",
+                "Ghana"
+            ],
+            "nombre": "Togo"
+        },
+        {
+            "nombre": "Tonga"
+        },
+        {
+            "nombre": "Trinidad and Tobago"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Libya"
+            ],
+            "nombre": "Tunisia"
+        },
+        {
+            "limita_con": [
+                "Armenia",
+                "Bulgaria",
+                "Georgia",
+                "Greece",
+                "Iran",
+                "Iraq",
+                "Syria"
+            ],
+            "nombre": "Turkey"
+        },
+        {
+            "limita_con": [
+                "Afghanistan",
+                "Iran",
+                "Kazakhstan",
+                "Uzbekistan"
+            ],
+            "nombre": "Turkmenistan"
+        },
+        {
+            "nombre": "Tuvalu"
+        },
+        {
+            "limita_con": [
+                "Democratic Republic of the Congo",
+                "Kenya",
+                "Rwanda",
+                "South Sudan",
+                "Tanzania"
+            ],
+            "nombre": "Uganda"
+        },
+        {
+            "limita_con": [
+                "Belarus",
+                "Hungary",
+                "Moldova",
+                "Poland",
+                "Romania",
+                "Russia",
+                "Slovakia"
+            ],
+            "nombre": "Ukraine"
+        },
+        {
+            "limita_con": [
+                "Oman",
+                "Saudi Arabia"
+            ],
+            "nombre": "United Arab Emirates"
+        },
+        {
+            "limita_con": [
+                "Ireland"
+            ],
+            "nombre": "United Kingdom"
+        },
+        {
+            "limita_con": [
+                "Canada",
+                "Mexico"
+            ],
+            "nombre": "United States"
+        },
+        {
+            "limita_con": [
+                "Argentina",
+                "Brazil"
+            ],
+            "nombre": "Uruguay"
+        },
+        {
+            "limita_con": [
+                "Afghanistan",
+                "Kazakhstan",
+                "Kyrgyzstan",
+                "Tajikistan",
+                "Turkmenistan"
+            ],
+            "nombre": "Uzbekistan"
+        },
+        {
+            "nombre": "Vanuatu"
+        },
+        {
+            "limita_con": [
+                "Italy"
+            ],
+            "nombre": "Vatican City"
+        },
+        {
+            "limita_con": [
+                "Brazil",
+                "Colombia",
+                "Guyana"
+            ],
+            "nombre": "Venezuela"
+        },
+        {
+            "limita_con": [
+                "Cambodia",
+                "People's Republic of China",
+                "Laos"
+            ],
+            "nombre": "Vietnam"
+        },
+        {
+            "limita_con": [
+                "Algeria",
+                "Mauritania",
+                "Morocco"
+            ],
+            "nombre": "Western Sahara"
+        },
+        {
+            "limita_con": [
+                "Oman",
+                "Saudi Arabia"
+            ],
+            "nombre": "Yemen"
+        },
+        {
+            "limita_con": [
+                "Angola",
+                "Botswana",
+                "Democratic Republic of the Congo",
+                "Malawi",
+                "Mozambique",
+                "Namibia",
+                "Tanzania",
+                "Zimbabwe"
+            ],
+            "nombre": "Zambia"
+        },
+        {
+            "limita_con": [
+                "Botswana",
+                "Mozambique",
+                "South Africa",
+                "Zambia"
+            ],
+            "nombre": "Zimbabwe"
+        }
+    ]
+}
