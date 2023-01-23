@@ -2,6 +2,9 @@ package es.ilopezma.coloreamapa;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+import java.util.List;
+import java.util.Map;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
@@ -16,54 +19,28 @@ public class ColoreaMapaTest {
 	@Order(1)
 	@DisplayName("Recursivo: Test basico")
 	void test() {
-		ColoreaMapa nreinas = new ColoreaMapa();
-		assertNotNull(nreinas);
+		ColoreaMapa coloreaMapa = new ColoreaMapa();
+		assertNotNull(coloreaMapa);
 	}
 
 	
 	@Test
 	@Order(2)
-	@DisplayName("Recursivo: Resolucion 4 reinas")
-	void testResolucion4Reinas() {
-		ColoreaMapa nreinas = new ColoreaMapa();
-		nreinas.colocaReinas(4);
-		assertNotNull(nreinas);
+	@DisplayName("Recursivo: Leer json")
+	void testLeerJson() {
+		Map<String, List<String>> mapa = UtilsColoreaMapa.cargarMapa(null);
+		assertNotNull(mapa);
 	}
 
 	@Test
 	@Order(3)
-	@DisplayName("Recursivo: Resolucion 5 reinas")
-	void testResolucion5Reinas() {
-		ColoreaMapa nreinas = new ColoreaMapa();
-		nreinas.colocaReinas(5);
-		assertNotNull(nreinas);
+	@DisplayName("Recursivo: llamada coloreaEspana")
+	void testColoreaMapa() {
+		Map<String, List<String>> mapa = UtilsColoreaMapa.cargarMapa(null);
+		ColoreaMapa coloreaMapa = new ColoreaMapa();
+		Map<String, Integer> solucion = coloreaMapa.coloreaEspanya(mapa);
+		
+		assertNotNull(solucion);
 	}
 
-	@Test
-	@Order(4)
-	@DisplayName("Recursivo: Resolucion 6 reinas")
-	void testResolucion6Reinas() {
-		ColoreaMapa nreinas = new ColoreaMapa();
-		nreinas.colocaReinas(6);
-		assertNotNull(nreinas);
-	}
-
-	@Test
-	@Order(5)
-	@DisplayName("Recursivo: Resolucion 7 reinas")
-	void testResolucion7Reinas() {
-		ColoreaMapa nreinas = new ColoreaMapa();
-		nreinas.colocaReinas(7);
-		assertNotNull(nreinas);
-	}
-	
-	@Test
-	@Order(6)
-	@DisplayName("Recursivo: Resolucion 8 reinas")
-	void testResolucion8Reinas() {
-		ColoreaMapa nreinas = new ColoreaMapa();
-		nreinas.colocaReinas(8);
-		assertNotNull(nreinas);
-	}
-	
 }
