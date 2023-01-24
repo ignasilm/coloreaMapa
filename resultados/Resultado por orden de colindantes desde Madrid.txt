@@ -1,0 +1,276 @@
+Mapa de provincias con sus colores asignados :
+
+Madrid : 1
+---> Ávila : 2
+---> Cuenca : 2
+---> Guadalajara : 3
+---> Segovia : 4
+---> Toledo : 3
+Ávila : 2
+---> Cáceres : 1
+---> Madrid : 1
+---> Salamanca : 3
+---> Segovia : 4
+---> Toledo : 3
+---> Valladolid : 1
+Cuenca : 2
+---> Albacete : 3
+---> Ciudad Real : 1
+---> Guadalajara : 3
+---> Madrid : 1
+---> Teruel : 1
+---> Toledo : 3
+---> Valencia : 4
+Guadalajara : 3
+---> Cuenca : 2
+---> Madrid : 1
+---> Segovia : 4
+---> Soria : 1
+---> Teruel : 1
+---> Zaragoza : 2
+Segovia : 4
+---> Ávila : 2
+---> Burgos : 2
+---> Guadalajara : 3
+---> Madrid : 1
+---> Soria : 1
+---> Valladolid : 1
+Toledo : 3
+---> Ávila : 2
+---> Badajoz : 2
+---> Cáceres : 1
+---> Ciudad Real : 1
+---> Cuenca : 2
+---> Madrid : 1
+Cáceres : 1
+---> Ávila : 2
+---> Badajoz : 2
+---> Salamanca : 3
+---> Toledo : 3
+Salamanca : 3
+---> Ávila : 2
+---> Cáceres : 1
+---> Valladolid : 1
+---> Zamora : 2
+Valladolid : 1
+---> Ávila : 2
+---> Burgos : 2
+---> León : 4
+---> Palencia : 3
+---> Salamanca : 3
+---> Segovia : 4
+---> Zamora : 2
+Badajoz : 2
+---> Cáceres : 1
+---> Ciudad Real : 1
+---> Córdoba : 3
+---> Huelva : 1
+---> Sevilla : 4
+---> Toledo : 3
+Ciudad Real : 1
+---> Albacete : 3
+---> Badajoz : 2
+---> Córdoba : 3
+---> Cuenca : 2
+---> Jaén : 2
+---> Toledo : 3
+Córdoba : 3
+---> Badajoz : 2
+---> Ciudad Real : 1
+---> Granada : 1
+---> Jaén : 2
+---> Málaga : 2
+---> Sevilla : 4
+Huelva : 1
+---> Badajoz : 2
+---> Cádiz : 3
+---> Sevilla : 4
+Sevilla : 4
+---> Badajoz : 2
+---> Cádiz : 3
+---> Córdoba : 3
+---> Huelva : 1
+---> Málaga : 2
+Albacete : 3
+---> Alicante : 1
+---> Ciudad Real : 1
+---> Cuenca : 2
+---> Granada : 1
+---> Jaén : 2
+---> Murcia : 2
+---> Valencia : 4
+Jaén : 2
+---> Albacete : 3
+---> Ciudad Real : 1
+---> Córdoba : 3
+---> Granada : 1
+Alicante : 1
+---> Albacete : 3
+---> Murcia : 2
+---> Valencia : 4
+Granada : 1
+---> Albacete : 3
+---> Almería : 3
+---> Córdoba : 3
+---> Jaén : 2
+---> Málaga : 2
+---> Murcia : 2
+Murcia : 2
+---> Albacete : 3
+---> Alicante : 1
+---> Almería : 3
+---> Granada : 1
+Valencia : 4
+---> Albacete : 3
+---> Alicante : 1
+---> Castellón : 2
+---> Cuenca : 2
+---> Teruel : 1
+Teruel : 1
+---> Castellón : 2
+---> Cuenca : 2
+---> Guadalajara : 3
+---> Tarragona : 4
+---> Valencia : 4
+---> Zaragoza : 2
+Soria : 1
+---> Burgos : 2
+---> Guadalajara : 3
+---> La Rioja : 3
+---> Segovia : 4
+---> Zaragoza : 2
+Zaragoza : 2
+---> Guadalajara : 3
+---> Huesca : 1
+---> Lérida : 3
+---> Navarra : 4
+---> La Rioja : 3
+---> Soria : 1
+---> Tarragona : 4
+---> Teruel : 1
+Burgos : 2
+---> Álava : 1
+---> Cantabria : 1
+---> Palencia : 3
+---> La Rioja : 3
+---> Segovia : 4
+---> Soria : 1
+---> Valladolid : 1
+---> Vizcaya : 3
+Álava : 1
+---> Burgos : 2
+---> Guipúzcoa : 2
+---> Navarra : 4
+---> La Rioja : 3
+---> Vizcaya : 3
+Cantabria : 1
+---> Asturias : 2
+---> Burgos : 2
+---> León : 4
+---> Palencia : 3
+---> Vizcaya : 3
+Palencia : 3
+---> Burgos : 2
+---> Cantabria : 1
+---> León : 4
+---> Valladolid : 1
+La Rioja : 3
+---> Álava : 1
+---> Burgos : 2
+---> Navarra : 4
+---> Soria : 1
+---> Zaragoza : 2
+Vizcaya : 3
+---> Álava : 1
+---> Burgos : 2
+---> Cantabria : 1
+---> Guipúzcoa : 2
+Guipúzcoa : 2
+---> Álava : 1
+---> Navarra : 4
+---> Vizcaya : 3
+Navarra : 4
+---> Álava : 1
+---> Guipúzcoa : 2
+---> Huesca : 1
+---> La Rioja : 3
+---> Zaragoza : 2
+Huesca : 1
+---> Lérida : 3
+---> Navarra : 4
+---> Zaragoza : 2
+Lérida : 3
+---> Barcelona : 1
+---> Gerona : 2
+---> Huesca : 1
+---> Tarragona : 4
+---> Zaragoza : 2
+Barcelona : 1
+---> Gerona : 2
+---> Lérida : 3
+---> Tarragona : 4
+Gerona : 2
+---> Barcelona : 1
+---> Lérida : 3
+Tarragona : 4
+---> Barcelona : 1
+---> Castellón : 2
+---> Lérida : 3
+---> Teruel : 1
+---> Zaragoza : 2
+Castellón : 2
+---> Tarragona : 4
+---> Teruel : 1
+---> Valencia : 4
+Asturias : 2
+---> Cantabria : 1
+---> León : 4
+---> Lugo : 1
+León : 4
+---> Asturias : 2
+---> Cantabria : 1
+---> Lugo : 1
+---> Orense : 3
+---> Palencia : 3
+---> Valladolid : 1
+---> Zamora : 2
+Lugo : 1
+---> Asturias : 2
+---> La Coruña : 2
+---> León : 4
+---> Orense : 3
+---> Pontevedra : 4
+Orense : 3
+---> León : 4
+---> Lugo : 1
+---> Pontevedra : 4
+---> Zamora : 2
+Zamora : 2
+---> León : 4
+---> Orense : 3
+---> Salamanca : 3
+---> Valladolid : 1
+La Coruña : 2
+---> Lugo : 1
+---> Pontevedra : 4
+Pontevedra : 4
+---> La Coruña : 2
+---> Lugo : 1
+---> Orense : 3
+Almería : 3
+---> Granada : 1
+---> Murcia : 2
+Málaga : 2
+---> Cádiz : 3
+---> Córdoba : 3
+---> Granada : 1
+---> Sevilla : 4
+Cádiz : 3
+---> Huelva : 1
+---> Málaga : 2
+---> Sevilla : 4
+Islas Baleares : 1
+Las Palmas : 1
+---> Santa Cruz de Tenerife : 2
+Santa Cruz de Tenerife : 2
+---> Las Palmas : 1

@@ -34,11 +34,33 @@ public class ColoreaMapaTest {
 
 	@Test
 	@Order(3)
-	@DisplayName("Recursivo: llamada coloreaEspana")
+	@DisplayName("Recursivo: llamada coloreaEspana ordenado alfabetico")
 	void testColoreaMapa() {
 		Map<String, List<String>> mapa = UtilsColoreaMapa.cargarMapa(null);
 		ColoreaMapa coloreaMapa = new ColoreaMapa();
 		Map<String, Integer> solucion = coloreaMapa.coloreaEspanya(mapa);
+		
+		assertNotNull(solucion);
+	}
+
+	@Test
+	@Order(4)
+	@DisplayName("Recursivo: llamada coloreaEspana ordenado por colindantes desde Madrid")
+	void testColoreaMapaColindantesMadrid() {
+		Map<String, List<String>> mapa = UtilsColoreaMapa.cargarMapa(null);
+		ColoreaMapa coloreaMapa = new ColoreaMapa();
+		Map<String, Integer> solucion = coloreaMapa.coloreaEspanyaColindantesMadrid(mapa);
+		
+		assertNotNull(solucion);
+	}
+
+	@Test
+	@Order(5)
+	@DisplayName("Recursivo: llamada coloreaEspana ordenado por colindantes desde Gerona")
+	void testColoreaMapaColindantesGerona() {
+		Map<String, List<String>> mapa = UtilsColoreaMapa.cargarMapa(null);
+		ColoreaMapa coloreaMapa = new ColoreaMapa();
+		Map<String, Integer> solucion = coloreaMapa.coloreaEspanyaColindantesGerona(mapa);
 		
 		assertNotNull(solucion);
 	}

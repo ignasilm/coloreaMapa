@@ -24,23 +24,44 @@ public class ColoreaMapa {
 
 	Map<String, Integer> coloreaEspanya(Map<String, List<String>> mapa) {
 		
-		LinkedHashMap<String, Integer> provinciaColores = new LinkedHashMap<String, Integer>();
+		LinkedHashMap<String, Integer> provinciaColores = null;
 		
-		Set<String> listaProvincias = mapa.keySet();
-		TreeSet provinciasOrdenadas = new TreeSet<String>(mapa.keySet());
-
-
-		for (Object provincias : provinciasOrdenadas) {
-			provinciaColores.put((String) provincias, null);
-		}
+		provinciaColores= UtilsColoreaMapa.ordenaProvinciasAlfabetico(mapa);
 		
 		boolean estaResuelto = resolverColoreaMapa (mapa, 0, 4, provinciaColores);
 		
-		UtilsColoreaMapa.pintarProvincias(provinciaColores);
+		UtilsColoreaMapa.pintaMapa(mapa, provinciaColores);
 		
 		return provinciaColores;
 	}
+
 	
+	Map<String, Integer> coloreaEspanyaColindantesMadrid(Map<String, List<String>> mapa) {
+		
+		LinkedHashMap<String, Integer> provinciaColores = null;
+		
+		provinciaColores= UtilsColoreaMapa.ordenaProvinciasColindantesMadrid(mapa);
+		
+		boolean estaResuelto = resolverColoreaMapa (mapa, 0, 4, provinciaColores);
+		
+		UtilsColoreaMapa.pintaMapa(mapa, provinciaColores);
+		
+		return provinciaColores;
+	}
+
+	Map<String, Integer> coloreaEspanyaColindantesGerona(Map<String, List<String>> mapa) {
+		
+		LinkedHashMap<String, Integer> provinciaColores = null;
+		
+		provinciaColores= UtilsColoreaMapa.ordenaProvinciasColindantesGerona(mapa);
+		
+		boolean estaResuelto = resolverColoreaMapa (mapa, 0, 4, provinciaColores);
+		
+		UtilsColoreaMapa.pintaMapa(mapa, provinciaColores);
+		
+		return provinciaColores;
+	}
+
 	
 	private boolean resolverColoreaMapa(Map<String, List<String>> mapa, int etapa, int numColores, LinkedHashMap<String, Integer> provinciaColores) {
 		

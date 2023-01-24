@@ -3,18 +3,17 @@ package es.ilopezma.coloreamapa;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 
-import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -61,12 +60,12 @@ public class UtilsColoreaMapa {
 		mapa = new HashMap<String, List<String>>();
 		for (Object provincia : areas) {
 			nomProvincia = ((JSONObject)provincia).getString("nombre");
-			System.out.println(nomProvincia);
+			//System.out.println(nomProvincia);
 			colindantes = ((JSONObject)provincia).getJSONArray("limita_con");
 			mapColindante = new ArrayList<String>();
 			for (Object provColindante : colindantes) {
 				nomColindante = (String)provColindante;
-				System.out.println("----" + nomColindante);
+				//System.out.println("----" + nomColindante);
 				mapColindante.add(nomColindante);
 			}
 			mapa.put(nomProvincia, mapColindante);
@@ -94,6 +93,122 @@ public class UtilsColoreaMapa {
 		
         System.out.println(mensaje.toString() );
 
+	}
+
+	public static void pintaMapa(Map<String, List<String>> mapa, Map<String, Integer> provinciaColores) {
+		
+		StringBuilder mensaje = new StringBuilder();
+		mensaje.append("\n\nMapa de provincias ");
+		if (provinciaColores != null) {
+			mensaje.append("con sus colores asignados");
+		}
+		mensaje.append(" :\n\n");
+		
+		Set<String> listaProvincias = null;
+		List<String> colindantes = null;
+
+		//si viene informada la lista de provinciaColores, usamos su orden para ver el orden usado al colorear. Sino el orden del mapa
+		if (provinciaColores != null) {
+			listaProvincias = provinciaColores.keySet();
+		}else {
+			listaProvincias = mapa.keySet();
+		}
+		
+		for (Object provincia : listaProvincias) {
+			mensaje.append((String)provincia);
+			if (provinciaColores != null && provinciaColores.containsKey((String)provincia)) {
+				mensaje.append(" : ").append(provinciaColores.get((String)provincia));
+			}
+			mensaje.append("\n");
+			colindantes  = mapa.get(provincia);
+			for (String provColindante : colindantes) {
+				mensaje.append("---> ").append(provColindante);
+				if (provinciaColores != null && provinciaColores.containsKey(provColindante)) {
+					mensaje.append(" : ").append(provinciaColores.get(provColindante));
+				}
+				mensaje.append("\n");
+			}
+		}
+        System.out.println(mensaje.toString() );
+	}
+	
+	
+	public static LinkedHashMap<String, Integer>  ordenaProvinciasAlfabetico(Map<String, List<String>> mapa) {
+		
+		LinkedHashMap<String, Integer> provinciaOrdenadas = new LinkedHashMap<String, Integer>();
+		
+		//pasamos la linkedhashmap a un set para obtener el orden
+		TreeSet provinciasOrdenadas = new TreeSet<String>(mapa.keySet());
+
+		LinkedHashMap<String, Integer> provinciaColores = new LinkedHashMap<String, Integer>();
+		for (Object provincias : provinciasOrdenadas) {
+			provinciaColores.put((String) provincias, null);
+		}
+		return provinciaColores;
+
+	}
+
+	public static LinkedHashMap<String, Integer>  ordenaProvinciasColindantesMadrid(Map<String, List<String>> mapa) {
+		
+		LinkedHashMap<String, Integer> provinciaOrdenadas = new LinkedHashMap<String, Integer>();
+		LinkedHashMap<String, Integer> provinciaColores = new LinkedHashMap<String, Integer>();
+		
+		buscarColindantes(mapa, "Madrid", provinciaColores);
+		
+		//Repaso de todas las provincias sin orden, por si nos falta añadir alguna
+		Set provinciasOrdenadas = mapa.keySet();
+		for (Object provincias : provinciasOrdenadas) {
+			if (!provinciaColores.containsKey(provincias)) {
+				provinciaColores.put((String) provincias, null);
+			}
+		}
+		return provinciaColores;
+
+	}
+
+	public static LinkedHashMap<String, Integer>  ordenaProvinciasColindantesGerona(Map<String, List<String>> mapa) {
+		
+		LinkedHashMap<String, Integer> provinciaOrdenadas = new LinkedHashMap<String, Integer>();
+		LinkedHashMap<String, Integer> provinciaColores = new LinkedHashMap<String, Integer>();
+		
+		buscarColindantes(mapa, "Gerona", provinciaColores);
+		
+		//Repaso de todas las provincias sin orden, por si nos falta añadir alguna
+		Set provinciasOrdenadas = mapa.keySet();
+		for (Object provincias : provinciasOrdenadas) {
+			if (!provinciaColores.containsKey(provincias)) {
+				provinciaColores.put((String) provincias, null);
+			}
+		}
+		return provinciaColores;
+
+	}
+
+	
+	private static void buscarColindantes(Map<String, List<String>> mapa, String provInicio, LinkedHashMap<String, Integer> provinciaColores) {
+		
+		boolean sigo = false;
+		
+		//Intentamos añadir la inicial
+		if (!provinciaColores.containsKey(provInicio)) {
+			provinciaColores.put(provInicio, null);
+		}
+		
+		//Intentamos añadir despues las colindantes directas 
+		for (String colindante : mapa.get(provInicio)) {
+			if (!provinciaColores.containsKey(colindante)) {
+				provinciaColores.put((String) colindante, null);
+				//si falaba añadir alguna colindante, le digo que busque luego sus colindantes
+				sigo = true;
+			}
+		}
+		
+		if (sigo) {
+			//buscamos las colindantes de cada una de las colindantes
+			for (String colindante : mapa.get(provInicio)) {
+					buscarColindantes(mapa, colindante, provinciaColores);
+			}
+		}
 	}
 
 }
